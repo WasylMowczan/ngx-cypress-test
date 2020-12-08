@@ -40,5 +40,4 @@ describe("Our first suite", ()=> {
         cy.get('[data-cy="imputEmail1"]')
 
     });
-
 })
