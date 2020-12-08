@@ -2,7 +2,7 @@
 
 
 describe("Our second suite", ()=> {
-    it.only('Second part', () => {
+    it('Second part', () => {
         cy.visit('/')
         cy.contains('Forms').click()
         cy.contains('Form Layouts').click()
